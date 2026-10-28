@@ -1,9 +1,0 @@
-# types of operators
-
-1. Arithmetic operators
-=> +, -, *, /, %
-
-2. Additional operators
-=>  ** exponential operator
-=>  // floor division operator
-
