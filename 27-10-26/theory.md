@@ -40,5 +40,6 @@ b. not in :- if search data does not exists it returns true otherwise false
 7. bitwise operator :- & bitwise and
                      | bitwise or
                       ^ bitwise xor
-                      << bitwise left shif
+                      << bitwise left shift
+                      >> bitwise right shift
                       
