@@ -39,3 +39,6 @@ difference b/w close() and closed property
 6. readlines() :- this function read all content of specified file. this function returns a list containing each line as list data/item.
 
 * return str = filepointer.readlines()
+
+7. writelines():- this function is used to write data in a file
+* return int = filepointer.writelines([list])
