@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-heading" id="home">
+        <div class="logo" aria-hidden="true">E</div>
+        <h1>Educational Site</h1>
+    </header>
+
+    <nav class="navbar" aria-label="Main navigation">
+        <a href="#home.html">Home</a>
+        <a href="#about.html">About</a>
+        <a href="#contact.html">Contact</a>
+        <a href="#register.html">Register</a>
+        <a href="#login.html">Login</a>
+    </nav>
+
+    <main class="main-content">
+        <section class="login-panel" id="login">
+            <h2>Login</h2>
+            <table>
+                <form action="#" method="post">
+                <label for="email">Email address</label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" autocomplete="current-password" required>
+
+                <button type="submit">Sign in</button>
+            </form>
+            </table>
+        
+        </section>
+
+        <section class="text-panel" id="about">
+            <h2>Welcome to our learning community</h2>
+            <marquee direction="up" height="270" onmouseover="stop()" onmouseout="start()" scrollamount="2" aria-label="Educational information">
+                <p>Learning opens doors to new ideas, skills, and opportunities.</p>
+                <p>Explore a subject that interests you and take it one step at a time.</p>
+                <p>Practice, stay curious, and celebrate every bit of progress.</p>
+                <p>Education is a journey that grows with every question you ask.</p>
+            </marquee>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <p>Contact us: <a href="mailto:hello@example.com">hello@example.com</a></p>
+        <p>&copy; 2026 Educational Site</p>
+    </footer>
+</body>
+</html>
